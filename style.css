@@ -1,0 +1,53 @@
+.add-black{
+    background-color: #292C35;
+}
+
+.main-div {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    border-radius: 5rem;
+    width: 13rem;
+    height: 6rem;
+    left: 38%;
+    top: 40%;
+}
+
+.main-div img {
+    width: 5rem;
+    margin-top: 0.2rem;
+}
+
+.main-div img:nth-child(2) {
+    margin-left: 0.5rem;
+}
+
+.main-div img:last-child {
+    margin-right: 0.2rem;
+    margin-left: 1.8rem;
+}
+
+.toggle-button {
+    background-color: white;
+    width: 5rem;
+    height: 5rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    border-radius: 5rem;
+    border: none;
+    position: absolute;
+    z-index: 1;
+    transition-property: margin-left;
+    transition: 1s ease;
+
+}
+
+.toggle-button:hover {
+    cursor: pointer;
+}
+
+.toggle-active {
+    margin-left: 7.5rem;
+    transition: 1s ease;
+}

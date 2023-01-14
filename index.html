@@ -1,59 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./assets/android-chrome-192x192.png">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script>
     <title>Toggle</title>
 </head>
 <body>
-    <style>
-        body{
-        
-        }
-
-        .main-div{
-            position: absolute;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            background-color: black;
-            border-radius: 5rem;
-            width: 13rem;
-            height: 6rem;
-            left: 38%;
-            top: 40%;
-        }
-
-        .main-div img{
-            width: 5rem;
-            margin-top: 0.2rem;
-        }
-
-        .main-div img:first-child{
-            margin-left: 0.3rem;
-        }
-
-        .main-div img:last-child{
-            margin-right: 0.3rem;
-        }
-
-        .toggle-button{
-            background-color: white;
-            width: 5rem;
-            height: 5rem;
-            margin-top: 0.5rem;
-            margin-left: 0.2rem;
-            border-radius: 5rem;
-            position: absolute;
-            z-index: 1;
-        }
-    </style>
-
-
     <div class="main-div">
-        <div class="toggle-button"></div>
+        <button class="toggle-button" onclick="Toggle()"></button>
         <img src="./assets/moon.svg" alt="moon icon">
         <img src="./assets/sun.svg" alt="sun icon">
     </div>
